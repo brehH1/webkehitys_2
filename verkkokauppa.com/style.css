@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: violet;
+    border: solid 10px green
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 180px;
+    height: 34px;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.header-icons span {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-size: 11px;
+    background-color: violet;
+    border: solid 1px black
+    
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.main-banner {
+    background-color: #e0f7ff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    position: relative;
+}
+
+.banner-content p {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 40px;
+    color: #ffde00;
+    font-weight: bold;
+}
+
+.promotion-img {
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ostokset {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: solid 46px green;
+    background-color: violet
+    
+}
+
+.ostoskärry {
+    background-color: green;
+    border: solid 2px black
+    background-color: #fff;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.ostoskärry img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.ostoskärry p {
+    margin: 10px 0;
+    font-size: 16px;
+   
+    
+}
+
+.hinta {
+    color: #e74c3c;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.vanha-hinta {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.ostoskärry:before {
+    content: 'TARJOUS';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: yellow;
+    padding: 2px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+}

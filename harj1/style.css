@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #fff;
+}
+
+.Etusivu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1919;
+    padding: 10px 20px;
+}
+
+.logo img {
+    font-size: 24px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.päävalikko ul {
+    list-style: none;
+    display: flex;
+    margin-right: 110px;
+    
+}
+
+.päävalikko ul li {
+    margin-right: 20px;
+}
+
+.päävalikko ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.käyttäjä a {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.liveuutiset {
+    display: flex;
+    background-color: #1a1919;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.uutinen {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.uutinen span {
+    margin-right: 10px;
+}
+
+.uutinen p {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #fff;
+}
+
+.sisältö {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1d1d1d;
+}
+
+.pääuutinen {
+    width: 65%;
+}
+
+.isouutinen {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.isouutinen .etiketti {
+    background-color: #e30051;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.isouutinen .kategoria {
+    color: #fff;
+    font-weight: bold;
+}
+
+.isouutinen h2 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.isouutinen time {
+    color: #bbb;
+    font-size: 14px;
+}
+
+.artikkelikuva img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.luetuin {
+    width: 30%;
+    background-color: #1d1d1d;
+    padding: 20px;
+}
+
+.luetuin h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.luetuin ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #bbb;
+}
+
+.luetuin li {
+    margin-bottom: 15px;
+}
+
+.luetuin li span {
+    font-weight: bold;
+    color: #fff;
+}
+
+.luetuin li:hover {
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #fff;
+}
+
+.nimi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.aiheet ul {
+    list-style: none;
+    display: flex;
+}
+
+.aiheet ul li {
+    margin-right: 20px;
+}
+
+.aiheet ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.valikot a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
